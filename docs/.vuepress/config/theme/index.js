@@ -9,19 +9,7 @@ module.exports = ctx => {
     nav,
     // 侧边栏
     sidebar,
-    // 在所有页面中启用自动生成子侧边栏
+    // 在所有页面中启用自动生成子侧边栏（自定义主题中的设置）
     subSidebar: 'auto',
-    // 显示所有页面的标题链接
-    displayAllHeaders: true,
-    // 搜索框
-    algolia: ctx.isProd
-      ? {
-        apiKey: '3a539aab83105f01761a137c61004d85',
-        indexName: 'vuepress',
-        algoliaOptions: {
-          facetFilters: ['tags:v1']
-        }
-      }
-      : null,
   }
 }
