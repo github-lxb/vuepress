@@ -3,6 +3,8 @@ const themeConfig = require('./config/theme')
 const plugins = require('./config/plugins')
 
 module.exports = ctx => ({
+  // 部署站点的基础路径
+  base: '/',
   // 网站的标题，它将会被用作所有页面标题的前缀
   title: '产品开发部知识库',
   // 网站的描述，它将会以 <meta> 标签渲染到当前页面的 HTML 中

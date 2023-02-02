@@ -1,8 +1,7 @@
 ---
 home: true
 heroImage: /image/logo.png
-heroText: 辰涵科技
-tagline: 产品开发部知识库
+heroText: null
 actionText: 快速上手 →
 actionLink: /guide/
 features:
