@@ -1,154 +1,51 @@
 ---
 title: Front Matter
 author: 李旭斌
+date: 2023-02-02
 categories:
  - 李旭斌
 ---
 
-任何包含 YAML front matter 的 Markdown 文件都将由 [gray-matter](https://github.com/jonschlinkert/gray-matter) 处理。front matter 必须是 markdown 文件中的第一部分，并且必须采用在三点划线之间书写的有效的 YAML。 这是一个基本的例子：
-
-```markdown
----
-title: Blogging with VuePress
-lang: zh-CN
----
-
-# {{ $frontmatter.title }}
-
-My blog post is written in {{ $frontmatter.lang }}.
-```
-
-在这些三条虚线之间，你可以设置预定义变量（参见[下面](#预定义变量)），甚至可以创建自己的自定义变量。 然后，您可以使用 <code> [$frontmatter](global-computed.md#frontmatter)</code> 在页面的其余部分、以及所有的自定义和主题组件访问这些变量。
-
-::: tip
-在 VuePress 中，Front matter 是 **可选的**。
-:::
-
-## 其他格式的 Front Matter
-
-除了 YAML 之外，VuePress 也支持 JSON 或者 [TOML](https://github.com/toml-lang/toml) 格式的 front matter。
-
-JSON front matter 需要以花括号开头和结尾：
+front matter 必须是 markdown 文件中的第一部分，并且必须采用在三点划线之间书写的有效的 YAML。示例如下：
 
 ```
 ---
-{
-  "title": "Blogging Like a Hacker",
-  "lang": "en-US"
-}
+title: Front Matter
+author: 李旭斌
+date: 2023-02-02
+categories:
+ - 李旭斌
+tags:
+ - js
+ - html
+ - java
 ---
 ```
 
-TOML front matter 需要显式地标注为 TOML：
+在这些三条虚线之间，设置的是预定义变量，可以理解为针对当前页面的配置信息，以上的这几个配置建议每篇文章都写上
 
-```
----toml
-title = "Blogging Like a Hacker"
-lang = "en-US"
----
-```
+## title
 
-## 预定义变量
+作用于浏览器标签页的标题、当前文档的标题，左侧侧边栏的标题。 
 
-### title
+在写文章时，不建议使用 `markdown` 的一级标题，例如：`# 这是一级标题`，因为该主题会生成两个标题，建议文章中最大标题为 `二级标题`
 
-- 类型: `string`
-- 默认值: `h1_title || siteConfig.title`
+## author
 
-当前页面的标题。
+展示作者名称
 
-### lang
+## date
 
-- 类型: `string`
-- 默认值: `en-US`
+展示文档创建日期
 
-当前页面的语言。
+## categories
 
-### description
+该配置是由 `vuepress-theme-reco` 主题提供，原意是对博客文章的分类归纳，目前用来对人员的归纳，可以设置多个
 
-- 类型: `string`
-- 默认值: `siteConfig.description`
+## tags
 
-当前页面的描述。
+该配置是由 `vuepress-theme-reco` 主题提供，该文章的标签，可以设置多个
 
-### layout
+## 其他的变量
 
-- 类型: `string`
-- 默认值: `Layout`
-
-设置当前页面的布局组件。
-
-### permalink
-
-- 类型: `string`
-- 默认值: `siteConfig.permalink`
-
-参考: [Permalinks](./permalinks.md).
-
-### metaTitle
-
-- 类型: `string`
-- 默认值: <code>\`${page.title} | ${siteConfig.title}\`</code>
-
-重写默认的 meta title。
-
-### meta
-
-- 类型: `array`
-- 默认值: `undefined`
-
-指定额外的要注入的 meta 标签：
-
-``` yaml
----
-meta:
-  - name: description
-    content: hello
-  - name: keywords
-    content: super duper SEO
----
-```
-
-## 默认主题的预定义变量
-
-### navbar
-
-- 类型: `boolean`
-- 默认值: `undefined`
-
-参考: [默认主题配置 > 禁用导航栏](../theme/default-theme-config.md#禁用导航栏)。
-
-### sidebar
-
-- 类型: `boolean|'auto'`
-- 默认值: `undefined`
-
-参考: [默认主题配置 > 侧边栏](../theme/default-theme-config.md#侧边栏)。
-
-### prev
-
-- 类型: `boolean|string`
-- 默认值: `undefined`
-
-参考: [默认主题配置 > 上 / 下一篇链接](../theme/default-theme-config.md#上-下一篇链接)。
-
-### next
-
-- 类型: `boolean|string`
-- 默认值: `undefined`
-
-参考: [默认主题配置 > 上 / 下一篇链接](../theme/default-theme-config.md#上-下一篇链接)。
-
-### search
-
-- 类型: `boolean`
-- 默认值: `undefined`
-
-参考: [默认主题配置 > 内置搜索](../theme/default-theme-config.md#内置搜索)。
-
-### tags
-
-- 类型: `array`
-- 默认值: `undefined`
-
-参考: [默认主题配置 > 内置搜索](../theme/default-theme-config.md#内置搜索)。
+另外还有一些`Vuepress` 默认主题的变量例如`prev`, `next`，请移步 [官方文档](https://vuepress.vuejs.org/zh/guide/frontmatter.html)

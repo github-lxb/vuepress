@@ -13,7 +13,6 @@
     "vuepress-theme-reco": "^1.6.16"
   },
   "dependencies": {
-    "dayjs": "^1.11.7",
-    "vuepress-plugin-code-copy": "^1.0.6"
+    "dayjs": "^1.11.7"
   }
 }

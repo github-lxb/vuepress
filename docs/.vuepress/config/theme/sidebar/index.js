@@ -1,24 +1,14 @@
 // 侧边栏（使用多侧边栏的方式）
 
 module.exports = {
-  // 指南
   '/guide/': [
-    {
-      title: '指南',
-      collapsable: false,
-      children: [
-        '',
-        'getting-started',
-      ]
-    },
-    {
-      title: '深入',
-      collapsable: false,
-      children: [
-        'front-matter',
-        'permalinks',
-      ]
-    }
+    '',
+    'getting-started',
+    'directory-structure',
+    'front-matter',
+    'theme-config',
+    'attention',
+    'deploy',
   ],
   '/front/js/': [
     '',
