@@ -1,10 +1,11 @@
 ---
 title: 异步操作概述
+author: 高祥
 date: 2023-02-01
 tags:
  - js
 categories:
- - 前端
+ - 高祥
 ---
 
 ## 单线程模型

@@ -1,10 +1,11 @@
 ---
 title: 其他运算符，运算顺序
+author: 董福昌
 date: 2023-02-01
 tags:
  - js
 categories:
- - 前端
+ - 董福昌
 ---
 
 ## void 运算符

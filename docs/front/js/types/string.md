@@ -1,10 +1,11 @@
 ---
 title: 字符串
+author: 李旭斌
 date: 2023-02-01
 tags:
  - js
 categories:
- - 前端
+ - 李旭斌
 ---
 
 ## 概述

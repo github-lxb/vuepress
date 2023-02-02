@@ -1,5 +1,8 @@
 ---
 title: 永久链接
+author: 李旭斌
+categories:
+ - 李旭斌
 ---
 
 ## 背景

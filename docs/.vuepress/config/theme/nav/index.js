@@ -7,6 +7,7 @@ module.exports = [
   },
   {
     text: '前端',
+    icon: 'iconfont icon-html5',
     items: [
       {
         text: 'js',
@@ -40,24 +41,13 @@ module.exports = [
   },
   {
     text: '后端',
-    link: '/back/'
+    link: '/back/',
+    icon: 'reco-api'
   },
   {
     text: 'git',
-    link: '/git/'
-  },
-  {
-    text: '工具',
-    items: [
-      {
-        text: 'Apifox',
-        link: '/tool/apifox/'
-      },
-      {
-        text: 'GitHub Desktop',
-        link: '/tool/github-desktop/',
-      },
-    ],
+    link: '/git/',
+    icon: 'iconfont icon-git'
   },
   {
     text: 'GitHub',

@@ -1,10 +1,11 @@
 ---
 title: 定时器
+author: 高祥
 date: 2023-02-01
 tags:
  - js
 categories:
- - 前端
+ - 高祥
 ---
 
 JavaScript 提供定时执行代码的功能，叫做定时器（timer），主要由`setTimeout()`和`setInterval()`这两个函数来完成。它们向任务队列添加定时任务。

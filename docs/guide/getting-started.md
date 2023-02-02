@@ -1,5 +1,8 @@
 ---
 title: 快速上手
+author: 李旭斌
+categories:
+ - 李旭斌
 ---
 
 ::: warning 前提条件

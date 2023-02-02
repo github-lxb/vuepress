@@ -1,10 +1,11 @@
 ---
 title: JavaScript 教程
+author: 李旭斌
 date: 2023-02-01
 tags:
  - js
 categories:
- - 前端
+ - 李旭斌
 ---
 
 本教程全面介绍 JavaScript 核心语法，覆盖了 ES5 和 DOM 规范的所有内容。
