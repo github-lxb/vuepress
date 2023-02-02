@@ -25,5 +25,6 @@ module.exports = ctx => {
     },
     // 关闭 404 腾讯公益（自定义主题中的设置）
     noFoundPageByTencent: false,
+    type: 'blog'
   }
 }
