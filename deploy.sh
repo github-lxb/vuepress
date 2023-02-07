@@ -20,6 +20,9 @@ git commit -m 'deploy'
 #git push -f https://github.com/github-lxb/github-lxb.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/github-lxb/vuepress-1x.git master:gh-pages
+#git push -f https://github.com/github-lxb/vuepress-1x.git master:gh-pages
+
+# 发布到 https://<USERNAME>.gitee.io/<REPO>
+git push -f https://gitee.com/gitee-lxb/vuepress.git master:gh-pages
 
 cd -
