@@ -9,6 +9,13 @@ module.exports = {
     'theme-config',
     'attention',
     'deploy',
+    'example',
+  ],
+  '/test/': [
+    '',
+    'test1',
+    'test2',
+    'test3',
   ],
   '/front/js/': [
     '',
