@@ -73,15 +73,15 @@ module.exports = [
       },
       {
         text: '测试1',
-        link: '/test/test-1/'
+        link: '/test/test1'
       },
       {
         text: '测试2',
-        link: '/test/test-2/'
+        link: '/test/test2'
       },
       {
         text: '测试3',
-        link: '/test/test-3/'
+        link: '/test/test3'
       },
     ]
   },
