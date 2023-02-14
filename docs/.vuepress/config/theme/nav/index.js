@@ -15,6 +15,7 @@ module.exports = [
   },
   {
     text: '测试',
+    icon: 'iconfont icon-html5',
     items: [
       {
         text: '概述',
