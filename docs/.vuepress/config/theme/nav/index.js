@@ -2,47 +2,16 @@
 
 module.exports = [
   {
-    text: '指南',
-    link: '/guide/'
+    text: '📖积累与分享',
+    link: '/share/'
   },
   {
-    text: '前端',
-    icon: 'iconfont icon-html5',
-    items: [
-      {
-        text: 'js',
-        link: '/front/js/'
-      },
-      {
-        text: 'css',
-        link: '/front/css/'
-      },
-      {
-        text: 'html',
-        link: '/front/html/'
-      },
-      {
-        text: 'vue2',
-        link: '/front/vue2/'
-      },
-      {
-        text: 'vue3',
-        link: '/front/vue3/'
-      },
-      {
-        text: 'uni-app',
-        link: '/front/uni-app/'
-      },
-      {
-        text: '微信小程序',
-        link: '/front/weapp/'
-      },
-    ]
+    text: '🐶开发规范',
+    link: '/standard/'
   },
   {
-    text: '后端',
-    link: '/back/',
-    icon: 'reco-api'
+    text: '🐯内部资料',
+    link: '/inner/'
   },
   {
     text: '测试',
@@ -64,15 +33,5 @@ module.exports = [
         link: '/test/test3'
       },
     ]
-  },
-  {
-    text: 'git',
-    link: '/git/',
-    icon: 'iconfont icon-git'
-  },
-  {
-    text: 'GitHub',
-    link: 'https://github.com/',
-    icon: 'reco-github'
-  },
+  }
 ]

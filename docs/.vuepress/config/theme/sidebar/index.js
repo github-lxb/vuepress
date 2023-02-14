@@ -1,7 +1,7 @@
 // 侧边栏（使用多侧边栏的方式）
 
 module.exports = {
-  '/guide/': [
+  '/share/guide/': [
     '',
     'getting-started',
     'directory-structure',
