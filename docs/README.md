@@ -3,7 +3,7 @@ home: true
 heroImage: /image/logo.png
 heroText: null
 actionText: 快速上手 →
-actionLink: /guide/
+actionLink: /share/
 features:
 - title: 📖积累与分享
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

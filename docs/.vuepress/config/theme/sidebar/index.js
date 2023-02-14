@@ -2,14 +2,26 @@
 
 module.exports = {
   '/share/guide/': [
-    '',
-    'getting-started',
-    'directory-structure',
-    'front-matter',
-    'theme-config',
-    'attention',
-    'deploy',
-    'example',
+    {
+      title: '基础',
+      collapsable: false,
+      children: [
+        '',
+        'getting-started',
+        'directory-structure',
+        'front-matter',
+      ]
+    },
+    {
+      title: '进阶',
+      collapsable: false,
+      children: [
+        'theme-config',
+        'attention',
+        'deploy',
+        'example',
+      ]
+    },
   ],
   '/test/': [
     '',
