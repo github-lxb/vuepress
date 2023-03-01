@@ -23,6 +23,27 @@ module.exports = {
       ]
     },
   ],
+  '/share/git/': [
+    {
+      title: 'Git介绍和使用',
+      collapsable: false,
+      children: [
+        '',
+        'gitflow',
+        'changyong'
+      ]
+    }
+  ],
+  '/standard/': [
+    {
+      title: 'Git开发规范',
+      collapsable: false,
+      children: [
+        '',
+        'tijiaoguifan'
+      ]
+    }
+  ],
   '/test/': [
     '',
     'test1',

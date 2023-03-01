@@ -14,25 +14,26 @@ module.exports = [
     link: '/inner/'
   },
   {
-    text: '测试',
-    icon: 'iconfont icon-html5',
-    items: [
-      {
-        text: '概述',
-        link: '/test/'
-      },
-      {
-        text: '测试1',
-        link: '/test/test1'
-      },
-      {
-        text: '测试2',
-        link: '/test/test2'
-      },
-      {
-        text: '测试3',
-        link: '/test/test3'
-      },
-    ]
+    text: '测试文档',
+    link:'/test/'
+    //icon: 'iconfont icon-html5',
+    // items: [
+    //   {
+    //     text: '',
+    //     link: '/test/'
+    //   },
+    //   {
+    //     text: '安全测试',
+    //     link: '/test/test1'
+    //   },
+    //   {
+    //     text: '测试2',
+    //     link: '/test/test2'
+    //   },
+    //   {
+    //     text: '测试3',
+    //     link: '/test/test3'
+    //   },
+    // ]
   }
 ]
